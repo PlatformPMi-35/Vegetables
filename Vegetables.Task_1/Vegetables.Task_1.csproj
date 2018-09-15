@@ -40,16 +40,21 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAL\Interfaces\IFileManager.cs" />
+    <Compile Include="DAL\Interfaces\IShape.cs" />
+    <Compile Include="DAL\Managers\FileManager.cs" />
+    <Compile Include="DAL\Models\Circle.cs" />
+    <Compile Include="DAL\Models\Square.cs" />
+    <Compile Include="DAL\Models\Triangle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DAL\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
