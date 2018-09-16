@@ -40,8 +40,11 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL_Tests\ShapeFinder_Tests.cs" />
     <Compile Include="DAL_Tests\FileManager_Tests.cs" />
     <Compile Include="DAL_Tests\Models_Tests\Circle_Tests.cs" />
+    <Compile Include="DAL_Tests\Models_Tests\Square_Tests.cs" />
+    <Compile Include="DAL_Tests\Models_Tests\Triangle_Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

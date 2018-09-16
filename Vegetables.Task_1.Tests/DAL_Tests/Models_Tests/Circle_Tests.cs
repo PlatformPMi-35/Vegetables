@@ -9,6 +9,17 @@ namespace Vegetables.Task_1.Tests.DAL_Tests.Models_Tests
     public class Circle_Tests
     {
         [Test]
+        public void MiddlePoint_Test()
+        {
+            //Arrange
+            var circle = new Circle(new Point(0, 0), 10);
+            //Act
+            var middlePoint = circle.MiddlePoint;
+            //Assert
+            Assert.AreEqual(new Point(0,0), middlePoint);
+        }
+
+        [Test]
         public void Perimeter_Test()
         {
             //Arrange

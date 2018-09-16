@@ -40,28 +40,9 @@ namespace Vegetables.Task_1.DAL.Models
         public Point RightBottom { get; set; }
 
         /// <summary>
-        /// Gets right top point of the square.
+        /// Gets middle point of the square.
         /// </summary>
-        public Point RightTop
-        {
-            get
-            {
-                var middle = MiddlePoint();
-                return new Point(middle.X + Math.Abs(middle.Y - LeftTop.Y), middle.Y + Math.Abs(middle.X - LeftTop.X));
-            }
-        }
-
-        /// <summary>
-        /// Gets left bottom point of the square.
-        /// </summary>
-        public Point LeftBottom
-        {
-            get
-            {
-                var middle = MiddlePoint();
-                return new Point(middle.X - Math.Abs(middle.Y - LeftTop.Y), middle.Y - Math.Abs(middle.X - LeftTop.X));
-            }
-        }
+        public Point MiddlePoint => CalculateMiddlePoint();
 
         /// <summary>
         /// Calculates perimeter of the square.
@@ -104,7 +85,7 @@ namespace Vegetables.Task_1.DAL.Models
         /// Calculates middle point of the square
         /// </summary>
         /// <returns>Middle point of the square</returns>
-        private Point MiddlePoint()
+        private Point CalculateMiddlePoint()
         {
             double x;
             double y;

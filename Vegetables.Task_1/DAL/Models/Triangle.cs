@@ -48,12 +48,17 @@ namespace Vegetables.Task_1.DAL.Models
         public Point C { get; set; }
 
         /// <summary>
+        /// Gets middle point of the triangle.
+        /// </summary>
+        public Point MiddlePoint => new Point((A.X + B.X + C.X) / 3, (A.Y + B.Y + C.Y) / 3);
+
+        /// <summary>
         /// Calculates area of the triangle.
         /// </summary>
         /// <returns>Square of the circle.</returns>
         public double Area()
         {
-            return (((A.X * B.Y) + (B.X * C.Y) + (C.X * A.Y)) - ((A.Y * B.X) + (B.Y * C.X) + (C.Y * A.X))) * 0.5;
+            return Math.Abs(A.X * B.Y + B.X * C.Y + C.X * A.Y - (A.Y * B.X + B.Y * C.X + C.Y * A.X)) * 0.5;
         }
 
         /// <summary>

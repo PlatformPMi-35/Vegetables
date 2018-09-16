@@ -40,6 +40,11 @@ namespace Vegetables.Task_1.DAL.Models
         public double Radius { get; set; }
 
         /// <summary>
+        /// Gets middle point of the circle.
+        /// </summary>
+        public Point MiddlePoint => Center;
+
+        /// <summary>
         /// Calculates perimeter of the circle.
         /// </summary>
         /// <returns>Perimeter of the circle.</returns>
