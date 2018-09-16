@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System;
+using System.Windows;
 using Vegetables.Task_1.DAL.Interfaces;
 
 namespace Vegetables.Task_1.DAL.Models
@@ -39,21 +40,72 @@ namespace Vegetables.Task_1.DAL.Models
         public Point RightBottom { get; set; }
 
         /// <summary>
+        /// Gets middle point of the square.
+        /// </summary>
+        public Point MiddlePoint => CalculateMiddlePoint();
+
+        /// <summary>
         /// Calculates perimeter of the square.
         /// </summary>
-        /// <returns>Perimeter of the circle.</returns>
+        /// <returns>Perimeter of the square.</returns>
         public double Perimeter()
         {
-            return (2 * (LeftTop.Y - RightBottom.Y)) + (2 * (RightBottom.X - LeftTop.X));
+            return 4 * Side();
         }
 
         /// <summary>
-        /// Calculates area of the circle.
+        /// Calculates area of the square.
         /// </summary>
-        /// <returns>Square of the circle.</returns>
+        /// <returns>Square of the square.</returns>
         public double Area()
         {
-            return (LeftTop.Y - RightBottom.Y) * (RightBottom.X - LeftTop.X);
+            return Side() * Side();
+        }
+
+        /// <summary>
+        /// Calculates side of the square
+        /// </summary>
+        /// <returns>Side of the square</returns>
+        private double Side()
+        {
+            return Diagonal() / Math.Sqrt(2);
+        }
+
+        /// <summary>
+        /// Calculates diagonal of the square
+        /// </summary>
+        /// <returns>Diagonal of the square</returns>
+        private double Diagonal()
+        {
+            return Math.Sqrt((RightBottom.X - LeftTop.X) * (RightBottom.X - LeftTop.X) +
+                             (LeftTop.Y - RightBottom.Y) * (LeftTop.Y - RightBottom.Y));
+        }
+
+        /// <summary>
+        /// Calculates middle point of the square
+        /// </summary>
+        /// <returns>Middle point of the square</returns>
+        private Point CalculateMiddlePoint()
+        {
+            double x;
+            double y;
+            if (Math.Abs(RightBottom.Y - LeftTop.Y) < 0.0001)
+            {
+                y = RightBottom.Y;
+                x = (RightBottom.X + LeftTop.X) / 2;
+            }
+            else if (Math.Abs(RightBottom.X - LeftTop.X) < 0.0001)
+            {
+                x = RightBottom.X;
+                y = (RightBottom.Y + LeftTop.Y) / 2;
+            }
+            else
+            {
+                x = (RightBottom.X + LeftTop.X) / 2;
+                y = (RightBottom.Y + LeftTop.Y) / 2;
+            }
+
+            return new Point(x, y);
         }
     }
 }

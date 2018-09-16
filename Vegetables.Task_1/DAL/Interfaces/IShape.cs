@@ -1,10 +1,17 @@
-﻿namespace Vegetables.Task_1.DAL.Interfaces
+﻿using System.Windows;
+
+namespace Vegetables.Task_1.DAL.Interfaces
 {
     /// <summary>
     /// Represents basics methods for shapes.
     /// </summary>
    public interface IShape
     {
+        /// <summary>
+        /// Gets middle point in shape
+        /// </summary>
+        Point MiddlePoint { get; }
+
         /// <summary>
         /// Calculates area square.
         /// </summary>
