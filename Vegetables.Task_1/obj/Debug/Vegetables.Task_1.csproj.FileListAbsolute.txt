@@ -5,3 +5,10 @@ D:\UNIVERSITY\Платформи корпоративних ІС\Vegetables\Vege
 D:\UNIVERSITY\Платформи корпоративних ІС\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.csproj.CoreCompileInputs.cache
 D:\UNIVERSITY\Платформи корпоративних ІС\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.exe
 D:\UNIVERSITY\Платформи корпоративних ІС\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.pdb
+D:\CorporativePlatform\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.csprojAssemblyReference.cache
+D:\CorporativePlatform\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.csproj.CoreCompileInputs.cache
+D:\CorporativePlatform\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.exe
+D:\CorporativePlatform\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.pdb
+D:\CorporativePlatform\Vegetables\Vegetables.Task_1\bin\Debug\Vegetables.Task_1.exe.config
+D:\CorporativePlatform\Vegetables\Vegetables.Task_1\bin\Debug\Vegetables.Task_1.exe
+D:\CorporativePlatform\Vegetables\Vegetables.Task_1\bin\Debug\Vegetables.Task_1.pdb

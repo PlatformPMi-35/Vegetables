@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System;
+using System.Windows;
 using Vegetables.Task_1.DAL.Interfaces;
 
 namespace Vegetables.Task_1.DAL.Models
@@ -39,21 +40,91 @@ namespace Vegetables.Task_1.DAL.Models
         public Point RightBottom { get; set; }
 
         /// <summary>
-        /// Calculates perimeter of the square.
+        /// Gets right top point of the square.
         /// </summary>
-        /// <returns>Perimeter of the circle.</returns>
-        public double Perimeter()
+        public Point RightTop
         {
-            return (2 * (LeftTop.Y - RightBottom.Y)) + (2 * (RightBottom.X - LeftTop.X));
+            get
+            {
+                Point middle = MiddlePoint();
+                return new Point(middle.X + Math.Abs(middle.Y - LeftTop.Y), middle.Y + Math.Abs(middle.X - LeftTop.X));
+            }
         }
 
         /// <summary>
-        /// Calculates area of the circle.
+        /// Gets left bottom point of the square.
         /// </summary>
-        /// <returns>Square of the circle.</returns>
+        public Point LeftBottom
+        {
+            get
+            {
+                var middle = MiddlePoint();
+                return new Point(middle.X - Math.Abs(middle.Y - LeftTop.Y), middle.Y - Math.Abs(middle.X - LeftTop.X));
+            }
+        }
+
+        /// <summary>
+        /// Calculates perimeter of the square.
+        /// </summary>
+        /// <returns>Perimeter of the square.</returns>
+        public double Perimeter()
+        {
+            return 4 * Side();
+        }
+
+        /// <summary>
+        /// Calculates area of the square.
+        /// </summary>
+        /// <returns>Square of the square.</returns>
         public double Area()
         {
-            return (LeftTop.Y - RightBottom.Y) * (RightBottom.X - LeftTop.X);
+            return Side() * Side();
+        }
+
+        /// <summary>
+        /// Calculates side of the square
+        /// </summary>
+        /// <returns>Side of the square</returns>
+        private double Side()
+        {
+            return Diagonal() / Math.Sqrt(2);
+        }
+
+        /// <summary>
+        /// Calculates diagonal of the square
+        /// </summary>
+        /// <returns>Diagonal of the square</returns>
+        private double Diagonal()
+        {
+            return Math.Sqrt(((RightBottom.X - LeftTop.X) * (RightBottom.X - LeftTop.X)) +
+                             ((LeftTop.Y - RightBottom.Y) * (LeftTop.Y - RightBottom.Y)));
+        }
+
+        /// <summary>
+        /// Calculates middle point of the square
+        /// </summary>
+        /// <returns>Middle point of the square</returns>
+        private Point MiddlePoint()
+        {
+            double x = 0;
+            double y = 0;
+            if (RightBottom.Y == LeftTop.Y)
+            {
+                y = RightBottom.Y;
+                x = (RightBottom.X + LeftTop.X) / 2;
+            }
+            else if (RightBottom.X == LeftTop.X)
+            {
+                x = RightBottom.X;
+                y = (RightBottom.Y + LeftTop.Y) / 2;
+            }
+            else
+            {
+                x = (RightBottom.X + LeftTop.X) / 2;
+                y = (RightBottom.Y + LeftTop.Y) / 2;
+            }
+
+            return new Point(x, y);
         }
     }
 }

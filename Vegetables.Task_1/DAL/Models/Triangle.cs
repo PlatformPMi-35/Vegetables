@@ -33,17 +33,17 @@ namespace Vegetables.Task_1.DAL.Models
         }
 
         /// <summary>
-        /// Gets or sets a vertice of the triangle.
+        /// Gets or sets vertex of the triangle.
         /// </summary>
         public Point A { get; set; }
 
         /// <summary>
-        /// Gets or sets vertice of the triangle.
+        /// Gets or sets vertex of the triangle.
         /// </summary>
         public Point B { get; set; }
 
         /// <summary>
-        /// Gets or sets vertice of the triangle.
+        /// Gets or sets vertex of the triangle.
         /// </summary>
         public Point C { get; set; }
 
