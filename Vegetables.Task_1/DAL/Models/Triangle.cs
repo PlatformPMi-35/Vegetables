@@ -33,17 +33,17 @@ namespace Vegetables.Task_1.DAL.Models
         }
 
         /// <summary>
-        /// Gets or sets a vertice of the triangle.
+        /// Gets or sets vertex of the triangle.
         /// </summary>
         public Point A { get; set; }
 
         /// <summary>
-        /// Gets or sets vertice of the triangle.
+        /// Gets or sets vertex of the triangle.
         /// </summary>
         public Point B { get; set; }
 
         /// <summary>
-        /// Gets or sets vertice of the triangle.
+        /// Gets or sets vertex of the triangle.
         /// </summary>
         public Point C { get; set; }
 
@@ -62,9 +62,9 @@ namespace Vegetables.Task_1.DAL.Models
         /// <returns>Perimeter of the circle.</returns>
         public double Perimeter()
         {
-            double ab = Math.Sqrt(Math.Pow(A.X - B.X, 2) + Math.Pow(A.Y - B.Y, 2));
-            double bc = Math.Sqrt(Math.Pow(C.X - B.X, 2) + Math.Pow(C.Y - B.Y, 2));
-            double ca = Math.Sqrt(Math.Pow(A.X - C.X, 2) + Math.Pow(A.Y - C.Y, 2));
+            var ab = Math.Sqrt(Math.Pow(A.X - B.X, 2) + Math.Pow(A.Y - B.Y, 2));
+            var bc = Math.Sqrt(Math.Pow(C.X - B.X, 2) + Math.Pow(C.Y - B.Y, 2));
+            var ca = Math.Sqrt(Math.Pow(A.X - C.X, 2) + Math.Pow(A.Y - C.Y, 2));
             return ab + bc + ca;
         }
     }

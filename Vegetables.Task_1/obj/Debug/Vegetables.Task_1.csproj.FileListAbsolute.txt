@@ -1,14 +1,7 @@
-D:\UNIVERSITY\Платформи корпоративних ІС\Vegetables\Vegetables.Task_1\bin\Debug\Vegetables.Task_1.exe.config
-D:\UNIVERSITY\Платформи корпоративних ІС\Vegetables\Vegetables.Task_1\bin\Debug\Vegetables.Task_1.exe
-D:\UNIVERSITY\Платформи корпоративних ІС\Vegetables\Vegetables.Task_1\bin\Debug\Vegetables.Task_1.pdb
-D:\UNIVERSITY\Платформи корпоративних ІС\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.csprojAssemblyReference.cache
-D:\UNIVERSITY\Платформи корпоративних ІС\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.csproj.CoreCompileInputs.cache
-D:\UNIVERSITY\Платформи корпоративних ІС\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.exe
-D:\UNIVERSITY\Платформи корпоративних ІС\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.pdb
 E:\Універ\3 курс\Платформи корпоративних ІС\Vegetables\Vegetables.Task_1\bin\Debug\Vegetables.Task_1.exe.config
 E:\Універ\3 курс\Платформи корпоративних ІС\Vegetables\Vegetables.Task_1\bin\Debug\Vegetables.Task_1.exe
 E:\Універ\3 курс\Платформи корпоративних ІС\Vegetables\Vegetables.Task_1\bin\Debug\Vegetables.Task_1.pdb
-E:\Універ\3 курс\Платформи корпоративних ІС\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.csprojResolveAssemblyReference.cache
 E:\Універ\3 курс\Платформи корпоративних ІС\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.csproj.CoreCompileInputs.cache
 E:\Універ\3 курс\Платформи корпоративних ІС\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.exe
 E:\Універ\3 курс\Платформи корпоративних ІС\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.pdb
+E:\Універ\3 курс\Платформи корпоративних ІС\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.csprojResolveAssemblyReference.cache

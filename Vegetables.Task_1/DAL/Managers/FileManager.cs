@@ -25,11 +25,11 @@ namespace Vegetables.Task_1.DAL.Managers
             }
 
             var shapes = new List<IShape>();
-            using (StreamReader reader = new StreamReader(filePath))
+            using (var reader = new StreamReader(filePath))
             {
                 while (!reader.EndOfStream)
                 {
-                    string[] values = reader.ReadLine()?.Split(';');
+                    var values = reader.ReadLine()?.Split(';');
                     shapes.Add(CreateShape(values));
                 }
             }
@@ -50,7 +50,7 @@ namespace Vegetables.Task_1.DAL.Managers
                 throw new ArgumentNullException(nameof(filePath));
             }
 
-            using (StreamWriter writer = new StreamWriter(filePath))
+            using (var writer = new StreamWriter(filePath))
             {
                 foreach (var shape in shapes)
                 {
@@ -94,6 +94,7 @@ namespace Vegetables.Task_1.DAL.Managers
                     };
                     break;
             }
+
             return result;
         }
 
@@ -104,19 +105,17 @@ namespace Vegetables.Task_1.DAL.Managers
         /// <param name="shape">A shape.</param>
         private void WriteShape(StreamWriter writer, IShape shape)
         {
-            if (shape is Circle circle)
+            switch (shape)
             {
-                writer.WriteLine($"{nameof(Circle)};{circle.Center.X};{circle.Center.Y};{circle.Radius}");
-            }
-
-            if (shape is Triangle triangle)
-            {
-                writer.WriteLine($"{nameof(Triangle)};{triangle.A.X};{triangle.A.Y};{triangle.B.X};{triangle.B.Y};{triangle.C.X};{triangle.C.Y}");
-            }
-
-            if (shape is Square square)
-            {
-                writer.WriteLine($"{nameof(Square)};{square.LeftTop.X};{square.LeftTop.Y};{square.RightBottom.X};{square.RightBottom.Y}");
+                case Circle circle:
+                    writer.WriteLine($"{nameof(Circle)};{circle.Center.X};{circle.Center.Y};{circle.Radius}");
+                    break;
+                case Triangle triangle:
+                    writer.WriteLine($"{nameof(Triangle)};{triangle.A.X};{triangle.A.Y};{triangle.B.X};{triangle.B.Y};{triangle.C.X};{triangle.C.Y}");
+                    break;
+                case Square square:
+                    writer.WriteLine($"{nameof(Square)};{square.LeftTop.X};{square.LeftTop.Y};{square.RightBottom.X};{square.RightBottom.Y}");
+                    break;
             }
         }
     }
