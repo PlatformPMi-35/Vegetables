@@ -5,3 +5,10 @@ E:\Універ\3 курс\Платформи корпоративних ІС\Ve
 E:\Універ\3 курс\Платформи корпоративних ІС\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.exe
 E:\Універ\3 курс\Платформи корпоративних ІС\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.pdb
 E:\Універ\3 курс\Платформи корпоративних ІС\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.csprojResolveAssemblyReference.cache
+D:\CorporativePlatform\Vegetables\Vegetables.Task_1\bin\Debug\Vegetables.Task_1.exe.config
+D:\CorporativePlatform\Vegetables\Vegetables.Task_1\bin\Debug\Vegetables.Task_1.exe
+D:\CorporativePlatform\Vegetables\Vegetables.Task_1\bin\Debug\Vegetables.Task_1.pdb
+D:\CorporativePlatform\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.csprojAssemblyReference.cache
+D:\CorporativePlatform\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.csproj.CoreCompileInputs.cache
+D:\CorporativePlatform\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.exe
+D:\CorporativePlatform\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.pdb

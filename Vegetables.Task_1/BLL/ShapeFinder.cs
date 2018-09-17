@@ -8,7 +8,7 @@ using Vegetables.Task_1.DAL.Interfaces;
 namespace Vegetables.Task_1.BLL
 {
     /// <summary>
-    /// Find shapes in collections
+    /// Find shapes in collections.
     /// </summary>
     public class ShapeFinder : IFinder<IShape>
     {

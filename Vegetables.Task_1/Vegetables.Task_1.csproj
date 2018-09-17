@@ -44,8 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BLL\Enums\Quarter.cs" />
+    <Compile Include="BLL\Enums\SortShapesBy.cs" />
     <Compile Include="BLL\Interfaces\IFinder.cs" />
     <Compile Include="BLL\ShapeFinder.cs" />
+    <Compile Include="BLL\ShapeSorter.cs" />
     <Compile Include="DAL\Interfaces\IFileManager.cs" />
     <Compile Include="DAL\Interfaces\IShape.cs" />
     <Compile Include="DAL\Managers\FileManager.cs" />
