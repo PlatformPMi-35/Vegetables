@@ -12,3 +12,10 @@ D:\CorporativePlatform\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.
 D:\CorporativePlatform\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.csproj.CoreCompileInputs.cache
 D:\CorporativePlatform\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.exe
 D:\CorporativePlatform\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.pdb
+D:\Univercity\Vegetables\Vegetables\Vegetables.Task_1\bin\Debug\Vegetables.Task_1.exe.config
+D:\Univercity\Vegetables\Vegetables\Vegetables.Task_1\bin\Debug\Vegetables.Task_1.exe
+D:\Univercity\Vegetables\Vegetables\Vegetables.Task_1\bin\Debug\Vegetables.Task_1.pdb
+D:\Univercity\Vegetables\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.csprojResolveAssemblyReference.cache
+D:\Univercity\Vegetables\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.csproj.CoreCompileInputs.cache
+D:\Univercity\Vegetables\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.exe
+D:\Univercity\Vegetables\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.pdb

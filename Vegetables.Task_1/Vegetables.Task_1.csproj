@@ -48,6 +48,7 @@
     <Compile Include="BLL\Interfaces\IFinder.cs" />
     <Compile Include="BLL\ShapeFinder.cs" />
     <Compile Include="BLL\ShapeSorter.cs" />
+    <Compile Include="BLL\ShapeValidator.cs" />
     <Compile Include="DAL\Interfaces\IFileManager.cs" />
     <Compile Include="DAL\Interfaces\IShape.cs" />
     <Compile Include="DAL\Managers\FileManager.cs" />
