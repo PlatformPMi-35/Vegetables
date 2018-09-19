@@ -5,8 +5,15 @@ using Vegetables.Task_1.UI.IO;
 
 namespace Vegetables.Task_1.UI.Extensions
 {
+    /// <summary>
+    ///  Extensions for <see cref="IShape" /> interface.
+    /// </summary>
     public static class ShapeExtensions
     {
+        /// <summary>
+        /// Find extension.
+        /// </summary>
+        /// <param name="shape">The shape.</param>
         public static void Print(this IShape shape)
         {
             switch (shape)

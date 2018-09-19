@@ -70,7 +70,10 @@
     <Compile Include="UI\IO\Input.cs" />
     <Compile Include="UI\IO\Output.cs" />
     <Compile Include="UI\Pages\AllShapes.cs" />
+    <Compile Include="UI\Pages\FindShapes.cs" />
+    <Compile Include="UI\Pages\LoadFromFile.cs" />
     <Compile Include="UI\Pages\MainMenu.cs" />
+    <Compile Include="UI\Pages\SaveToFile.cs" />
     <Compile Include="UI\Pages\Sort.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -15,6 +15,10 @@ namespace Vegetables.Task_1
         {
             AddPage(new MainMenu(this));
             AddPage(new Sort(this));
+            AddPage(new AllShapes(this));
+            AddPage(new FindShapes(this));
+            AddPage(new LoadFromFile(this));
+            AddPage(new SaveToFile(this));
             SetPage<MainMenu>();
         }
     }

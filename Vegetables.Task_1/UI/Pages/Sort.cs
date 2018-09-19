@@ -28,7 +28,7 @@ namespace Vegetables.Task_1.UI.Pages
             base.Display();
             if (Data.Shapes == null || Data.Shapes.Count == 0)
             {
-                Output.DisplayInfo("Collection is empty\nPress any key to navigate home");
+                Output.DisplayInfo("Collection is empty\n\nPress any key to navigate home");
                 Input.AnyKey();
                 Program.NavigateHome();
             }

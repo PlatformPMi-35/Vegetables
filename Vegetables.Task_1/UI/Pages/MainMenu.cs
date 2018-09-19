@@ -16,12 +16,11 @@ namespace Vegetables.Task_1.UI.Pages
         public MainMenu(Program program) : base(
             "Main menu",
             program,
-            new Option("Show all shapes", () => program.NavigateTo<MainMenu>()),
-            new Option("Read from file", () => program.NavigateTo<MainMenu>()),
-            new Option("Write to file", () => program.NavigateTo<MainMenu>()),
+            new Option("Show all shapes", () => program.NavigateTo<AllShapes>()),
+            new Option("Load from file", () => program.NavigateTo<LoadFromFile>()),
+            new Option("Save to file", () => program.NavigateTo<SaveToFile>()),
             new Option("Sort", () => program.NavigateTo<Sort>()),
-            new Option("Write to file", () => program.NavigateTo<MainMenu>()),
-            new Option("Find shapes in the third quarter", () => program.NavigateTo<MainMenu>()),
+            new Option("Find shapes in the third quarter", () => program.NavigateTo<FindShapes>()),
             new Option("Exit", () => Environment.Exit(0)))
         {
         }

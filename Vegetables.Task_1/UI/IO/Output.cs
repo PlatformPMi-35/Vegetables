@@ -11,35 +11,12 @@ namespace Vegetables.Task_1.UI.IO
         ///     Method for writing string line.
         /// </summary>
         /// <param name="color">Output color.</param>
-        /// <param name="format">Output format.</param>
-        /// <param name="args">Output objects.</param>
-        public static void WriteLine(ConsoleColor color, string format, params object[] args)
-        {
-            Console.ForegroundColor = color;
-            Console.WriteLine(format, args);
-            Console.ResetColor();
-        }
-
-        /// <summary>
-        ///     Method for writing string line.
-        /// </summary>
-        /// <param name="color">Output color.</param>
         /// <param name="value">Output value.</param>
         public static void WriteLine(ConsoleColor color, string value)
         {
             Console.ForegroundColor = color;
             Console.WriteLine(value);
             Console.ResetColor();
-        }
-
-        /// <summary>
-        ///     Method for writing string line.
-        /// </summary>
-        /// <param name="format">Output format.</param>
-        /// <param name="args">Output objects.</param>
-        public static void WriteLine(string format, params object[] args)
-        {
-            Console.WriteLine(format, args);
         }
 
         /// <summary>
@@ -81,17 +58,6 @@ namespace Vegetables.Task_1.UI.IO
         {
             Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine("\n[INFO]: {0}", message);
-            Console.ResetColor();
-        }
-
-        /// <summary>
-        ///     Method for displaying a warning.
-        /// </summary>
-        /// <param name="message">Warning message.</param>
-        public static void DisplayWarning(string message)
-        {
-            Console.ForegroundColor = ConsoleColor.DarkYellow;
-            Console.WriteLine("\n[WARNING]: {0}", message);
             Console.ResetColor();
         }
     }

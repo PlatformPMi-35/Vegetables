@@ -12,11 +12,11 @@ namespace Vegetables.Task_1.BLL
     public static class ShapeSorter
     {
         /// <summary>
-        /// Sort shapes by ascending
+        /// Sort shapes by ascending.
         /// </summary>
-        /// <param name="collectionShapes">Collection of shapes</param>
-        /// <param name="sortBy">How sort shapes</param>
-        /// <returns>Sorted collection</returns>
+        /// <param name="collectionShapes">Collection of shapes.</param>
+        /// <param name="sortBy">Sorting method.</param>
+        /// <returns>Sorted collection.</returns>
         public static IEnumerable<IShape> SortByAscending(IEnumerable<IShape> collectionShapes, SortShapesBy sortBy)
         {
             IEnumerable<IShape> orderedEnumerable;
@@ -42,10 +42,10 @@ namespace Vegetables.Task_1.BLL
         }
 
         /// <summary>
-        /// Sort shapes by Descending
+        /// Sort shapes by Descending.
         /// </summary>
-        /// <param name="collectionShapes">Collection of shapes</param>
-        /// <param name="sortBy">How sort shapes</param>
+        /// <param name="collectionShapes">Collection of shapes.</param>
+        /// <param name="sortBy">Sorting method.</param>
         /// <returns>Sorted collection</returns>
         public static IEnumerable<IShape> SortByDescending(IEnumerable<IShape> collectionShapes, SortShapesBy sortBy)
         {

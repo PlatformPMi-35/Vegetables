@@ -15,8 +15,8 @@ namespace Vegetables.Task_1.BLL
         /// <summary>
         /// Finds shapes which are on quarter. 
         /// </summary>
-        /// <param name="shapes">Collection of shapes</param>
-        /// <param name="quarter">The quarter</param>
+        /// <param name="shapes">Collection of shapes.</param>
+        /// <param name="quarter">The quarter.</param>
         /// <returns>Collection of shapes.</returns>
         public IEnumerable<IShape> Find(IEnumerable<IShape> shapes, Quarter quarter)
         {
@@ -24,21 +24,21 @@ namespace Vegetables.Task_1.BLL
         }
 
         /// <summary>
-        /// Is shape in quarter
+        /// Is shape in quarter.
         /// </summary>
-        /// <param name="shape">The shape</param>
-        /// <param name="quarter">The quarter</param>
-        /// <returns>True - if shape is on quarter, false - if shape is not on quarter </returns>
+        /// <param name="shape">The shape.</param>
+        /// <param name="quarter">The quarter.</param>
+        /// <returns>True - if shape is on quarter, false - if shape is not on quarter. </returns>
         private bool IsOnQuarter(IShape shape, Quarter quarter)
         {
             return GetQuarter(shape.MiddlePoint) == quarter;
         }
 
         /// <summary>
-        /// Find quarter, which has point
+        /// Find quarter, which has point.
         /// </summary>
-        /// <param name="point">The point</param>
-        /// <returns>The quarter</returns>
+        /// <param name="point">The point.</param>
+        /// <returns>The quarter.</returns>
         private Quarter GetQuarter(Point point)
         {
             if (point.X > 0 && point.Y > 0)
