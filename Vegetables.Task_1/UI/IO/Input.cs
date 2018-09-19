@@ -110,13 +110,10 @@ namespace Vegetables.Task_1.UI.IO
 
             Output.WriteLine(prompt);
             var menu = new Menu();
-
             var choice = default(TEnum);
             foreach (var value in Enum.GetValues(type))
                 menu.Add(Enum.GetName(type, value), () => { choice = (TEnum) value; });
-
             menu.Display();
-
             return choice;
         }
 
