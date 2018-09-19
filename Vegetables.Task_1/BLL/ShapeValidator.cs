@@ -5,7 +5,7 @@ using Vegetables.Task_1.DAL.Models;
 namespace Vegetables.Task_1.BLL
 {
     /// <summary>
-    /// Validate IShape
+    /// Validate <see cref="IShape"/>
     /// </summary>
     public static class ShapeValidator
     {

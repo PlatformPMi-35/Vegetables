@@ -49,6 +49,7 @@
     <Compile Include="BLL\ShapeFinder.cs" />
     <Compile Include="BLL\ShapeSorter.cs" />
     <Compile Include="BLL\ShapeValidator.cs" />
+    <Compile Include="DAL\Data.cs" />
     <Compile Include="DAL\Interfaces\IFileManager.cs" />
     <Compile Include="DAL\Interfaces\IShape.cs" />
     <Compile Include="DAL\Managers\FileManager.cs" />
@@ -57,6 +58,17 @@
     <Compile Include="DAL\Models\Triangle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\Core\Context\Option.cs" />
+    <Compile Include="UI\Core\Menu.cs" />
+    <Compile Include="UI\Core\MenuPage.cs" />
+    <Compile Include="UI\Core\Page.cs" />
+    <Compile Include="UI\Core\Program.cs" />
+    <Compile Include="UI\Core\ShapePrinter.cs" />
+    <Compile Include="UI\Extensions\ShapeExtensions.cs" />
+    <Compile Include="UI\Extensions\StringExtensions.cs" />
+    <Compile Include="UI\IO\Input.cs" />
+    <Compile Include="UI\IO\Output.cs" />
+    <Compile Include="UI\Pages\AllShapes.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
