@@ -32,9 +32,9 @@ namespace Vegetables.Task_1.UI.Pages
                ShapePrinter.Print(Data.Shapes); 
             }
 
-            Output.DisplayInfo("Press any key to navigate home");
+            Output.WriteLine("Press any key to navigate home");
             Input.AnyKey();
-            Program.NavigateHome();
+            Program.NavigateBack();
         }
     }
 }

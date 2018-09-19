@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Vegetables.Task_1.DAL;
 using Vegetables.Task_1.DAL.Interfaces;
 using Vegetables.Task_1.DAL.Managers;
@@ -42,17 +39,14 @@ namespace Vegetables.Task_1.UI.Pages
             catch (FileNotFoundException e)
             {
                 Output.DisplayError(e.Message);
-                throw;
             }
             catch (IOException e)
             {
                 Output.DisplayError(e.Message);
-                throw;
             }
             catch (Exception e)
             {
                 Output.DisplayError(e.Message);
-                throw;
             }
 
             Output.WriteLine("Press any key...");

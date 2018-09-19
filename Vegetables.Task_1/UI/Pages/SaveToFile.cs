@@ -38,17 +38,14 @@ namespace Vegetables.Task_1.UI.Pages
             catch (FileNotFoundException e)
             {
                 Output.DisplayError(e.Message);
-                throw;
             }
             catch (IOException e)
             {
                 Output.DisplayError(e.Message);
-                throw;
             }
             catch (Exception e)
             {
                 Output.DisplayError(e.Message);
-                throw;
             }
 
             Output.WriteLine("Press any key...");

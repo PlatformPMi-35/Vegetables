@@ -19,3 +19,10 @@ D:\Univercity\Vegetables\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_
 D:\Univercity\Vegetables\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.csproj.CoreCompileInputs.cache
 D:\Univercity\Vegetables\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.exe
 D:\Univercity\Vegetables\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.pdb
+D:\UNIVERSITY\Платформи корпоративних ІС\Vegetables\Vegetables.Task_1\bin\Debug\Vegetables.Task_1.exe.config
+D:\UNIVERSITY\Платформи корпоративних ІС\Vegetables\Vegetables.Task_1\bin\Debug\Vegetables.Task_1.exe
+D:\UNIVERSITY\Платформи корпоративних ІС\Vegetables\Vegetables.Task_1\bin\Debug\Vegetables.Task_1.pdb
+D:\UNIVERSITY\Платформи корпоративних ІС\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.csprojAssemblyReference.cache
+D:\UNIVERSITY\Платформи корпоративних ІС\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.csproj.CoreCompileInputs.cache
+D:\UNIVERSITY\Платформи корпоративних ІС\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.exe
+D:\UNIVERSITY\Платформи корпоративних ІС\Vegetables\Vegetables.Task_1\obj\Debug\Vegetables.Task_1.pdb

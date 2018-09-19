@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Text;
+using Vegetables.Task_1.UI.IO;
 
 namespace Vegetables.Task_1.UI.Core
 {
@@ -36,12 +37,13 @@ namespace Vegetables.Task_1.UI.Core
         public virtual void Display()
         {
             Console.Clear();
+            Output.WriteLine("_______________________________________________________________________________________________________________________\n");
             Console.ForegroundColor = ConsoleColor.Cyan;
             if (Program.History.Count > 1 && Program.BreadcrumbHeader)
             {
                 var breadcrumb = new StringBuilder();
                 foreach (var title in Program.History.Select(page => page.Title).Reverse())
-                    breadcrumb.Append(title + " -> ");
+                    breadcrumb.Append(title + " > ");
 
                 if (breadcrumb.Length != 0)
                 {
@@ -53,9 +55,8 @@ namespace Vegetables.Task_1.UI.Core
             {
                 Console.WriteLine(Title);
             }
-
-            Console.WriteLine("-------");
             Console.ResetColor();
+            Output.WriteLine("_______________________________________________________________________________________________________________________\n");
         }
     }
 }
