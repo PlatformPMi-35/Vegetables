@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using Vegetables.Task_1.BLL;
 using Vegetables.Task_1.BLL.Enums;
 using Vegetables.Task_1.DAL;
@@ -37,10 +38,10 @@ namespace Vegetables.Task_1.UI.Pages
             switch (choiceMethod)
             {
                 case SortShapesBy.Area:
-                    ShapeSorter.SortByAscending(Data.Shapes, choiceMethod);
+                    Data.Shapes = ShapeSorter.SortByAscending(Data.Shapes, choiceMethod).ToList();
                     break;
                 case SortShapesBy.Perimeter:
-                    ShapeSorter.SortByAscending(Data.Shapes, choiceMethod);
+                    Data.Shapes = ShapeSorter.SortByAscending(Data.Shapes, choiceMethod).ToList();
                     break;
                 default:
                     throw new ArgumentOutOfRangeException();

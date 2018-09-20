@@ -20,7 +20,7 @@ namespace Vegetables.Task_1.UI.Pages
             new Option("Load from file", () => program.NavigateTo<LoadFromFile>()),
             new Option("Save to file", () => program.NavigateTo<SaveToFile>()),
             new Option("Sort", () => program.NavigateTo<Sort>()),
-            new Option("Find shapes in the third quarter", () => program.NavigateTo<FindShapes>()),
+            new Option("Find shapes in the quarter", () => program.NavigateTo<FindShapes>()),
             new Option("Exit", () => Environment.Exit(0)))
         {
         }

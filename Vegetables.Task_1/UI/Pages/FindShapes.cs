@@ -24,7 +24,7 @@ namespace Vegetables.Task_1.UI.Pages
         /// Initializes a new instance of the <see cref="FindShapes"/> class.
         /// </summary>
         /// <param name="program">Main program.</param>
-        public FindShapes(Program program) : base("All shapes", program)
+        public FindShapes(Program program) : base("Find shapes", program)
         {
             _shapeFinder = new ShapeFinder();
             _fileManager = new FileManager();
