@@ -79,11 +79,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="UI\Resources\Read\Shapes.csv" />
-    <None Include="UI\Resources\Write\File1.csv" />
-    <None Include="UI\Resources\Write\File2.csv" />
-  </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

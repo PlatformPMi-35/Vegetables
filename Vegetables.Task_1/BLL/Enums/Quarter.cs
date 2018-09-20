@@ -8,7 +8,7 @@
         /// <summary>
         /// None quarter.
         /// </summary>
-        None,
+        None = 1,
 
         /// <summary>
         /// First quarter.
